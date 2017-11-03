@@ -1,0 +1,19 @@
+{
+    "description": "SketchApp Reader for Flow Framework",
+    "type": "neos-package",
+    "name": "ttree/sketchappviewer",
+    "require": {
+        "neos/flow": "^4.0",
+        "symfony/process": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\SketchAppViewer\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.SketchAppViewer"
+        }
+    }
+}
